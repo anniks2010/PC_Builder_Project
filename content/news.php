@@ -1,15 +1,4 @@
-<html>  
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style/style.css">
-  <title>News </title>
-</head>
-<body>    
- <?php include("header.php"); ?>
-    <h1>Testing news file</h1>
-    <h1>Testing</h1>
-    <h1>Testing</h1>
-    <h1>Testing</h1>
+
 <!--Project container-->
 <div class="projects-clean">
   <div class="container">
