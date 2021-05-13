@@ -29,4 +29,4 @@
 <!--Button to read full news-->
 <a href="/2020/12/10/cooperation-between-teachers.html" class="btn btn-primary text-left mt-5 mb-3">Continue reading</a>
             </div>
-          </div>    
+          </div>  
