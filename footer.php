@@ -2,5 +2,5 @@
     <?php
     echo date("Y");
     ?>
-    &copy; PC Builder Project
+    &copy; PC Builder
 </footer>
