@@ -1,7 +1,7 @@
 <nav>
     <ul>
-        <li><a href="?">Kodu</a></li>
-        <li><a href="?leht=kontakt">Kontakt</a></li>
-        <li><a href="?leht=news">Piltide valik</a></li>
+        <li><a href="?">Home</a></li>
+        <li><a href="?leht=kontakt">Contacts</a></li>
+        <li><a href="?leht=news">News</a></li>
     </ul>
 </nav>
