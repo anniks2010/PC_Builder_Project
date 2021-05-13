@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Anu PHP lehestik</title>
+    <title>PC Builder Page</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -20,7 +20,7 @@ include ('header.php');
 include ('navigation.php');
 ?>
 <aside>
-<p>Väike kasulik tekst</p>
+<p>Useful items!</p>
 </aside>
 <main>
 <?php
