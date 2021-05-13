@@ -9,7 +9,7 @@
 <?php
 if(isSet($_REQUEST['nimi'])){
     if(empty($_REQUEST['nimi'])){
-        echo "Palun sisesta oma nimi!";
+        echo "Palun sisesta oma nimi! ";
     } else{
         echo "Tere tulemast, ".$_REQUEST['nimi']."! ";
         echo "Kirjuta mulle midagi e-posti aadressile test.testing@test.ee";
