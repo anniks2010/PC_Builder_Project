@@ -1,3 +1,3 @@
 <header>
-    <h1>PC Bulder Page</h1>
+    <h1>PC Builder Page</h1>
 </header>

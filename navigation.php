@@ -1,7 +1,9 @@
 <nav>
     <ul>
         <li><a href="?">Home</a></li>
-        <li><a href="?leht=kontakt">Contacts</a></li>
         <li><a href="?leht=news">News</a></li>
+        <li><a href="?leht=builds">Builds</a></li>
+        <li><a href="?leht=shop">Shop</a></li>
+        <li><a href="?leht=compare">Compare</a></li>
     </ul>
 </nav>
