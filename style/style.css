@@ -69,13 +69,6 @@ header h1{
     text-align: center;
 }
 
-aside{
-    float: left;
-    width: 150px;
-    margin: 0;
-    padding: 5%;
-}
-
 main{
     margin-left:300px;
     border-left:solid 1px gray;

@@ -17,9 +17,6 @@ include ('header.php');
 <?php
 include ('navigation.php');
 ?>
-<aside>
-<p>Useful items!</p>
-</aside>
 <main>
 <?php
 if(isSet($_GET["leht"])){
