@@ -1,6 +1,6 @@
 <div class="container">
     <div class="main_img">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHz0Oj1TqZEq-RzYBGpJQDVmrEL6nSL2AFQ&usqp=CAU" alt="welcome" style="width:900px;height:300px;border:0px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHz0Oj1TqZEq-RzYBGpJQDVmrEL6nSL2AFQ&usqp=CAU" alt="welcome" style="width:1200px;height:300px;border:0px;">
 </div>
     <p>This website is all about modern-day technologies for both low skilled and advanced users. Here we offer the most interesting computer-related information from all around the world.</p>
     <p>
