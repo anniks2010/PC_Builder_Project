@@ -1,5 +1,4 @@
 html, body{
-    margin: 0;
     padding: 0;
     background-color: #27282d;
 }
@@ -16,6 +15,7 @@ p, h2{
     font-size: 16px;
     text-align: left;
     padding-bottom: 15px;
+    
 }
 
 h1, h2 , .intro_link{
@@ -72,7 +72,6 @@ header h1{
 main{
    
     background-color:#27282d;
-    margin-left: 5px;
 }
 
 
