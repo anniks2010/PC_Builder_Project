@@ -1,6 +1,7 @@
 <footer>
+    <p>
     <?php
     echo date("Y");
     ?>
-    &copy; PC Builder
+    &copy; PC Builder</p>
 </footer>
