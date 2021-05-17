@@ -46,14 +46,14 @@ nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: darkgrey;
+    background-color:#27282d;
     overflow: hidden;
 
 }
 
 nav li a:hover{
 
-    background-color:#40E0D0;
+    background-color:#fbefdf;
 
 }
 header{
