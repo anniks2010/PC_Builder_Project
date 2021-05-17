@@ -10,7 +10,7 @@ if(isSet($_REQUEST['nimi'])){
 }
 ?>
 <form>
-    Sisesta oma nimi:
+    <p>Sisesta oma nimi:</p>
     <input type="hidden" name="leht" value="<?=basename(__FILE__,".php")?>">
     <input type="text" name="nimi">
     <input type="submit" value="ok">
