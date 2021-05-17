@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    background: #27282d;
 }
 h1{
     font-size: 3em;
@@ -26,50 +27,6 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
-body{
-    background: #27282d;
-}
-
-/* NEWS APPRIBUTES */
-.clear_news{
-    width: 100%;
-    clear: both;
-}
-.container_news, header{
-    width: 80%;
-    max-width: 1280px;
-    background: #27282d;
-    padding: 10px;
-}
-.container{
-    margin: 0 auto;
-}
-.img_news{
-    width: 300px;
-    height: auto;
-}
-.row_news{
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.picture_news{
-    width: 30%;
-    display: block;
-    float: left;
-}
-.intro_news{
-    width: 70%;
-    display: block;
-    float: left;
-}
-.clear{
-    width: 100%;
-    clear: both;
-}
-
-/*NAV*/
 nav li{
 
     float: left;
@@ -114,6 +71,64 @@ footer{
     background-color:#27282d;
 
 }
+header h1{
+    letter-spacing: 0.2cm;
+    text-align: center;
+}
+
+aside{
+    float: left;
+    width: 150px;
+    margin: 0;
+    padding: 5%;
+}
+
+main{
+    margin-left:300px;
+    border-left:solid 1px gray;
+    padding-left: 5%;
+}
+
+
+/* NEWS APPRIBUTES */
+.clear_news{
+    width: 100%;
+    clear: both;
+}
+.container_news, header{
+    width: 80%;
+    max-width: 1280px;
+    background: #27282d;
+    padding: 10px;
+}
+.container{
+    margin: 0 auto;
+}
+.img_news{
+    width: 300px;
+    height: auto;
+}
+.row_news{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.picture_news{
+    width: 30%;
+    display: block;
+    float: left;
+}
+.intro_news{
+    width: 70%;
+    display: block;
+    float: left;
+}
+.clear{
+    width: 100%;
+    clear: both;
+}
+
+
 /* OTEHR APPRIBUTES - Saate sia edasi lisada */
 
 
