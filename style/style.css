@@ -79,6 +79,10 @@ main{
     padding: 10px;
     margin: 0 auto;
 }
+.main_img
+{
+        width: 100%;
+}
 /*
 .container_news{
     margin: 0 auto;
