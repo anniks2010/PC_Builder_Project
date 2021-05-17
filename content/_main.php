@@ -1,6 +1,6 @@
 <div class="container">
     <div class="main_img">
-    <img src="https://www.intel.co.uk/content/dam/www/public/us/en/images/photography-consumer/rwd/gaming/cpu-rwd.jpg" alt="welcome" style="width:1100px;height:300px;border:0px;">
+    <img src="https://fastfixcomputerrepair.com/wp-content/uploads/2018/11/Custom-PC-Builder-Fast-Fix-Computer-Repair.jpg" alt="welcome" style="width:1100px;height:300px;border:0px;">
 </div>
     <p>This website is all about modern-day technologies for both low skilled and advanced users. Here we offer the most interesting computer-related information from all around the world.</p>
     <p>
