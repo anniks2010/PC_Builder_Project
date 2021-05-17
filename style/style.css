@@ -81,7 +81,8 @@ main{
 }
 .main_img
 {
-        width: 100%;
+    width: 80%;
+    max-width: 1280px;
 }
 /*
 .container_news{
