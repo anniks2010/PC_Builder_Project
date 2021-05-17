@@ -1,3 +1,4 @@
+<div class="container">
 <p>
 <?php
 if(isSet($_REQUEST['nimi'])){
@@ -17,3 +18,4 @@ if(isSet($_REQUEST['nimi'])){
     <input type="submit" value="ok">
 
 </form>
+</div>
