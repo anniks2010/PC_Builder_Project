@@ -111,42 +111,5 @@ main{
 }
 
 
-/* OTEHR APPRIBUTES Saate sia edasi lisada */
+/* OTEHR APPRIBUTES Saate siia edasi lisada */
 
-
-/* ANU LISATUD ORIGINAAL 
-header{
-    padding: 5%;
-    margin: 0px;
-    border: solid 1px gray;
-    border-radius: 50px;
-  background-color:#B0E0E6;
-}
-footer{
-    padding: 5%;
-    margin: 0px;
-    border: solid 1px gray;
-    border-radius: 50px;
-    background-color:#E6E6FA;
-
-}
-
-header h1{
-    letter-spacing: 0.2cm;
-    text-align: center;
-}
-
-aside{
-    float: left;
-    width: 150px;
-    margin: 0;
-    padding: 5%;
-}
-
-main{
-    margin-left:300px;
-    border-left:solid 1px gray;
-    padding-left: 5%;
-}
-
-*/ 
