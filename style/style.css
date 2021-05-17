@@ -1,3 +1,77 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 3em;
+    font-variant: small-caps;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+p, h2{
+    font-family: "Arial, Times New Roman";
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+h1, h2 , .intro_link{
+    color:#fbefdf;
+}
+
+p{
+    color:#b2b2b2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body{
+    background: #27282d;
+}
+
+/* NEWS APPRIBUTES */
+.clear_news{
+    width: 100%;
+    clear: both;
+}
+.container_news, header{
+    width: 80%;
+    max-width: 1280px;
+    background: #27282d;
+    padding: 10px;
+}
+.container{
+    margin: 0 auto;
+}
+.img_news{
+    width: 300px;
+    height: auto;
+}
+.row_news{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.picture_news{
+    width: 30%;
+    display: block;
+    float: left;
+}
+.intro_news{
+    width: 70%;
+    display: block;
+    float: left;
+}
+.clear{
+    width: 100%;
+    clear: both;
+}
+/* OTEHR APPRIBUTES - Saate sia edasi lisada */
+
+
+/* ANU LISATUD ORIGINAAL 
 header{
     padding: 5%;
     margin: 0px;
@@ -60,4 +134,4 @@ nav li a:hover{
 
     background-color:#40E0D0;
 
-}
+} */ 
