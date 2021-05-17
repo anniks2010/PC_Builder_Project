@@ -70,9 +70,20 @@ header h1{
 }
 
 main{
-   
     background-color:#27282d;
 }
+
+.container{
+    width: 80%;
+    max-width: 1280px;
+    background: #27282d;
+    padding: 10px;
+    margin: 0 auto;
+}
+/*
+.container_news{
+    margin: 0 auto;
+}*/
 
 
 /* NEWS APPRIBUTES */
@@ -80,6 +91,7 @@ main{
     width: 100%;
     clear: both;
 }
+/*
 .container_news{
     width: 80%;
     max-width: 1280px;
@@ -89,6 +101,8 @@ main{
 .container_news{
     margin: 0 auto;
 }
+*/
+
 .img_news{
     width: 300px;
     height: auto;
