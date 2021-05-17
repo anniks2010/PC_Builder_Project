@@ -68,6 +68,37 @@ body{
     width: 100%;
     clear: both;
 }
+
+/*NAV*/
+nav li{
+
+    float: left;
+}
+
+nav li a{
+
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+nav ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+    overflow: hidden;
+
+}
+
+nav li a:hover{
+
+    background-color:#40E0D0;
+
+}
 /* OTEHR APPRIBUTES - Saate sia edasi lisada */
 
 
