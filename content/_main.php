@@ -1,4 +1,4 @@
-<img src="pictures/welcome_pic.png" alt="welcome" style="width:700px;height:500px;border:0px;">
+<img src="/pictures/welcome_pic.png" alt="welcome" style="width:700px;height:500px;border:0px;">
 <p>This website is all about modern-day technologies for both low skilled and advanced users. Here we offer the most interesting computer-related information from all around the world.</p>
 <p>
 Here you can also look up PC builds that suit specifically your needs. If you don't  know which pc part fits your build the most, fea not, on our webiste you can compare parts and make a weighed decision about what to pick.
