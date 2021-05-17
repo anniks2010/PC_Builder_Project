@@ -6,14 +6,12 @@ h1{
     font-size: 3em;
     font-variant: small-caps;
     text-align: center;
-    padding-bottom: 15px;
 }
 
 p, h2{
     font-family: "Arial, Times New Roman";
     font-size: 16px;
     text-align: left;
-    padding-bottom: 15px;
     margin-left: 15px;
     
 }
