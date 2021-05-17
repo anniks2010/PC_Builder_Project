@@ -4,23 +4,6 @@
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>News</title>
-    <link rel="stylesheet" href="style/style.css" />
-</head>
-
-<body>
-<?php
-    include ('header.php');
-?>
-<?php
-    include ('navigation.php');
-?>
-
 <div class="clear_news"></div>
 
 <div class="container_news">
@@ -59,15 +42,10 @@
         <div class="clear_news"></div>
     </div>
 
-
 </div>
-
 
 </div>
 
 <?php
     include ('footer.php');
 ?>
-
-</body>
-</html>
