@@ -1,11 +1,4 @@
-<form>
-    Sisesta oma nimi:
-    <input type="hidden" name="leht" value="<?=basename(__FILE__,".php")?>">
-    <input type="text" name="nimi">
-    <input type="submit" value="ok">
-
-</form>
-
+<p>
 <?php
 if(isSet($_REQUEST['nimi'])){
     if(empty($_REQUEST['nimi'])){
@@ -16,3 +9,11 @@ if(isSet($_REQUEST['nimi'])){
     }
 }
 ?>
+</p>
+<form>
+    Sisesta oma nimi:
+    <input type="hidden" name="leht" value="<?=basename(__FILE__,".php")?>">
+    <input type="text" name="nimi">
+    <input type="submit" value="ok">
+
+</form>
