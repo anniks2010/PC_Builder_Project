@@ -6,7 +6,7 @@
 
 <div class="clear_news"></div>
 
-<div class="container_news">
+<div class="container">
     <h1>News</h1>
 
 <div class="">
