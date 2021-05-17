@@ -47,7 +47,7 @@
     <div class="row_news">
         <div class="picture_news">
             <a href="">
-                <img src="http://s4.thingpic.com/images/CM/uHYVBitbGD8jGxsGKoa74rtn.jpeg" alt="PILT REBANE">
+                <img class ="img_news" src="http://s4.thingpic.com/images/CM/uHYVBitbGD8jGxsGKoa74rtn.jpeg" alt="PILT REBANE">
             </a>      
         </div>
         <div class="intro_news">
@@ -64,7 +64,7 @@
     <div class="row_news">
         <div class="picture_news">
             <a href="">
-                <img src="http://s4.thingpic.com/images/CM/uHYVBitbGD8jGxsGKoa74rtn.jpeg" alt="PILT REBANE">
+                <img class ="img_news" src="http://s4.thingpic.com/images/CM/uHYVBitbGD8jGxsGKoa74rtn.jpeg" alt="PILT REBANE">
             </a>      
         </div>
         <div class="intro_news">
