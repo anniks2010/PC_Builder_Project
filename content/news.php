@@ -14,26 +14,17 @@
 </head>
 
 <body>
-<header>
-    <div class="">
-        PC BUILDER PROJECT
-    </div>
-    <nav>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="insert.php">News</a></li>
-            <li><a href="index.php">Builds</a></li>
-            <li><a href="insert.php">Shop</a></li>
-            <li><a href="insert.php">Compare</a></li>
+<?php
+    include ('header.php');
+?>
+<?php
+    include ('navigation.php');
+?>
 
-        </ul>
-    </nav>
-    <div class="clear_news"></div>
-</header>
+<div class="clear_news"></div>
 
 <div class="container_news">
     <h1>News</h1>
-
 
 <div class="">
     <div class="row_news">
@@ -91,6 +82,9 @@
 
 </div>
 
+<?php
+    include ('footer.php');
+?>
 
 </body>
 </html>
