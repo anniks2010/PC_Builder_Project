@@ -1,19 +1,21 @@
 html, body{
+    margin: 0;
     padding: 0;
     background-color: #27282d;
 }
 h1{
     font-size: 3em;
     font-variant: small-caps;
+    margin-top: 0;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 p, h2{
     font-family: "Arial, Times New Roman";
     font-size: 16px;
     text-align: left;
-    margin-left: 15px;
-    
+    padding-bottom: 15px;
 }
 
 h1, h2 , .intro_link{
@@ -23,6 +25,7 @@ h1, h2 , .intro_link{
 p{
     color:#b2b2b2;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 nav li{
 
@@ -83,7 +86,7 @@ main{
     background: #27282d;
     padding: 10px;
 }
-.container{
+.container_news{
     margin: 0 auto;
 }
 .img_news{
@@ -111,7 +114,7 @@ main{
 }
 
 
-/* OTEHR APPRIBUTES Saate sia edasi lisada */
+/* OTEHR APPRIBUTES - Saate sia edasi lisada */
 
 
 /* ANU LISATUD ORIGINAAL 
