@@ -80,7 +80,7 @@ main{
     width: 100%;
     clear: both;
 }
-.container_news, header{
+.container_news{
     width: 80%;
     max-width: 1280px;
     background: #27282d;
