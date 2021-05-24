@@ -2,6 +2,8 @@ body{
     font-family:  Helvetica, sans-serif;
     background-color:#27282d ;
     color:#fbefdf;
+    max-width:10000px;
+    min-width:1250px;
 }
 header{
     padding: 5%;
@@ -20,7 +22,22 @@ h1{
     text-align:center;
 }
 
-
+.hrt {
+    position: relative;
+    border-radius: 2px;
+    height: 2px;
+    background-color: #fbefdf;
+    width: 70%;
+    margin-bottom: 4%;
+}
+.hrb{
+    position: relative;
+    border-radius:2px;
+    height: 2px;
+    background-color: #fbefdf;
+    width: 70%;
+    margin-top: 4%;
+}
 aside{
     float: left;
     width: 150px;
@@ -31,17 +48,12 @@ aside{
 
 
 nav li{
-    margin-top: 30%;
     float: left;
+    font-size: 20px;
 }
-.hr{
-    position: relative;
-    height: 3px;
-    background-color: #fbefdf;
-    width: 50%;
-    margin-bottom: 4%;
-}
+
 nav li a{
+    white-space: nowrap;
     display: inline-block;
     text-align: center;
     padding: 30px;
@@ -107,6 +119,7 @@ table {
 .tableCom{
     width: 60%;
 }
+
 .colum1{
     background-color:#8d6852 ;
     width:130px;
@@ -126,6 +139,17 @@ tr,th,td{
     background-color: #fbefdf;
     border: 1px solid black;
 }
+.logo{
+    position: absolute;
+    float: right;
+    left: 25%;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
 /* NEWS APPRIBUTES */
 .clear_news{
     width: 100%;

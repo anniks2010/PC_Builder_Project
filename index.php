@@ -12,7 +12,7 @@
 <?php
 include ('navigation.php');
 ?>
-<hr class="hr">
+<hr class="hrt">
 
 <main>
 <?php
@@ -23,7 +23,7 @@ if(isSet($_GET["leht"])){
 }
 ?>
 </main>
-<hr class="hr">
+<hr class="hrb">
 <?php
 include ('footer.php');
 ?>
