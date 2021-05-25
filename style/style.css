@@ -139,10 +139,66 @@ tr,th,td{
     background-color: #fbefdf;
     border: 1px solid black;
 }
-.logo{
-    position: absolute;
-    float: right;
-    left: 25%;
-    width: 100px;
-    height: 100px;
+/* NEWS APPRIBUTES */
+.clear_news{
+    width: 100%;
+    clear: both;
 }
+/*
+.container_news{
+    width: 80%;
+    max-width: 1280px;
+    background: #27282d;
+    padding: 10px;
+}
+.container_news{
+    margin: 0 auto;
+}
+*/
+
+.img_news{
+    width: 300px;
+    height: auto;
+}
+.row_news{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.picture_news{
+    width: 30%;
+    display: block;
+    float: left;
+}
+.intro_news{
+    width: 70%;
+    display: block;
+    float: left;
+}
+.clear{
+    width: 100%;
+    clear: both;
+}
+
+
+/* OTEHR APPRIBUTES - Saate sia edasi lisada */
+
+.container{
+    width: 80%;
+    max-width: 1280px;
+    background: #27282d;
+    padding: 10px;
+    margin: 0 auto;
+}
+/*.main_img
+{
+    width: 80%;
+    max-width: 1280px;
+    padding-left: 30%;
+    padding-right: 30%;
+}*/
+/*
+.container_news{
+    margin: 0 auto;
+}*/
+
