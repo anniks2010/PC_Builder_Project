@@ -1,4 +1,5 @@
 <?php
+
 require_once('database.php');
 global $conn;
     $kask = $conn->prepare("SELECT CPU, AIO, MOBO, GPU, RAM, SSD, CASEE, PSU, OS  FROM builds");
@@ -64,3 +65,4 @@ while($kask->fetch()) {
     $prcgpu=$prcgpu+350;
 }
 ?>
+

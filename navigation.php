@@ -1,4 +1,5 @@
 <nav>
+    <img src="pictures/wolf.png" alt="logo" class="logo">
     <ul>
         <li><a href="?">Home</a></li>
         <li><a href="?leht=news" >News</a></li>
