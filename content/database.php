@@ -1,4 +1,5 @@
 <?php
+
 $host = "localhost"; /* Host name */
 $user = "pcbuilder"; /* User */
 $password = "1234"; /* Password */
@@ -11,3 +12,4 @@ if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
 }
 ?>
+
