@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +13,7 @@
 <?php
 include ('navigation.php');
 ?>
+
 <hr class="hr">
 
 <main>
