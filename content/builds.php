@@ -1,7 +1,15 @@
-<h1>Part List for 2000 PC Build</h1>
-
-<br>
-<br>
+<?php
+require_once('database.php');
+global $conn;
+    $kask = $conn->prepare("SELECT CPU, AIO, MOBO, GPU, RAM, SSD, CASEE, PSU, OS  FROM builds");
+    $kask->bind_result( $CPU, $AIO, $MOBO, $GPU, $RAM, $SSD, $CASEE, $PSU, $OS);
+    $kask->execute();
+    $prc=1000;
+    $prccpu=150;
+    $prcgpu=500;
+while($kask->fetch()) {
+    ?>
+<h1>Part List for  <?php echo $prc ?>€ Build</h1>
 
 <table>
     <tr>
@@ -11,184 +19,48 @@
     </tr>
     <tr>
         <td><b>CPU</b></td>
-        <td>Intel Core i7-10700K</td>
-        <td>404€</td>
+        <td><?php echo $CPU ?></td>
+        <td><?php echo $prccpu ?>€</td>
     </tr>
     <tr>
         <td><b>AIO</b></td>
-        <td>Deep Cool 240mm</td>
+        <td><?php echo $AIO?></td>
         <td>111€</td>
     </tr>
     <tr>
         <td><b>MOBO</b></td>
-        <td>MSI Z490</td>
+        <td><?php echo $MOBO ?></td>
         <td>90€</td>
     </tr>
     <tr>
         <td><b>GPU</b></td>
-        <td>ASUS RTX 3080</td>
-        <td>700€</td>
+        <td><?php echo $GPU ?></td>
+        <td><?php echo $prcgpu ?>€</td>
     </tr>
     <tr>
         <td><b>RAM</b></td>
-        <td>OLOy 16GB</td>
+        <td><?php echo $RAM ?></td>
         <td>72€</td>
     </tr>
     <tr>
         <td><b>SSD</b></td>
-        <td>Samsung 1TB</td>
+        <td><?php echo $SSD ?></td>
         <td>260€</td>
     </tr>
     <tr>
         <td><b>CASE</b></td>
-        <td>Thermaltake Core X71</td>
+        <td><?php echo $CASEE ?></td>
         <td>123€</td>
     </tr>
     <tr>
-        <td><b>PSU</b></td>
-        <td>Thermaltake 850W</td>
-        <td>140€</td>
-    </tr>
-    <tr>
-        <td><b>OS</b></td>
-        <td>Windows 10</td>
-        <td>100€</td>
-    </tr>
-    <tr>
         <td></td>
         <td style="text-align:right"><b>Total:</b></td>
-        <td>2000€</td>
+        <td><?php echo $prc ?>€</td>
     </tr>
 </table>
-
-<br>
-<br>
-
-<h1>Part List for 1500 PC Build</h1>
-
-<br>
-<br>
-
-<table>
-    <tr>
-        <th class="colum1">Сomponents</th>
-        <th class="colum2">Model</th>
-        <th class="colum3">Price(euro)</th>
-    </tr>
-    <tr>
-        <td><b>CPU</b></td>
-        <td>Intel Core i7-10700K</td>
-        <td>404€</td>
-    </tr>
-    <tr>
-        <td><b>AIO</b></td>
-        <td>Deep Cool 240mm</td>
-        <td>111€</td>
-    </tr>
-    <tr>
-        <td><b>MOBO</b></td>
-        <td>MSI Z490</td>
-        <td>90€</td>
-    </tr>
-    <tr>
-        <td><b>GPU</b></td>
-        <td>ZOTAC RTX 2070 SUPER</td>
-        <td>207€</td>
-    </tr>
-    <tr>
-        <td><b>RAM</b></td>
-        <td>OLOy 16GB</td>
-        <td>65€</td>
-    </tr>
-    <tr>
-        <td><b>SSD</b></td>
-        <td>Samsung 1TB</td>
-        <td>260€</td>
-    </tr>
-    <tr>
-        <td><b>CASE</b></td>
-        <td>Thermaltake Core X71</td>
-        <td>123€</td>
-    </tr>
-    <tr>
-        <td><b>PSU</b></td>
-        <td>Thermaltake 850W</td>
-        <td>140€</td>
-    </tr>
-    <tr>
-        <td><b>OS</b></td>
-        <td>Windows 10</td>
-        <td>100€</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td style="text-align:right"><b>Total:</b></td>
-        <td>1500€</td>
-    </tr>
-</table>
-
-<br>
-<br>
-
-<h1>Part List for 2000 PC Build</h1>
-
-<br>
-<br>
-
-<table>
-    <tr>
-        <th class="colum1">Сomponents</th>
-        <th class="colum2">Model</th>
-        <th class="colum3">Price(euro)</th>
-    </tr>
-    <tr>
-        <td><b>CPU</b></td>
-        <td>Intel Core i5-10400</td>
-        <td>46</td>
-    </tr>
-    <tr>
-        <td><b>AIO</b></td>
-        <td>Deep Cool 240mm</td>
-        <td>46€</td>
-    </tr>
-    <tr>
-        <td><b>MOBO</b></td>
-        <td>ASRock H410M</td>
-        <td>67€</td>
-    </tr>
-    <tr>
-        <td><b>GPU</b></td>
-        <td>PowerColor RX 5600 XT</td>
-        <td>300€</td>
-    </tr>
-    <tr>
-        <td><b>RAM</b></td>
-        <td>OLOy 16GB</td>
-        <td>65€</td>
-    </tr>
-    <tr>
-        <td><b>SSD</b></td>
-        <td>ADATA 480GB</td>
-        <td>65€</td>
-    </tr>
-    <tr>
-        <td><b>CASE</b></td>
-        <td>Thermaltake Core X71</td>
-        <td>67€</td>
-    </tr>
-    <tr>
-        <td><b>PSU</b></td>
-        <td>Cooler Master 650W </td>
-        <td>90€</td>
-    </tr>
-    <tr>
-        <td><b>OS</b></td>
-        <td>Windows 10</td>
-        <td>100€</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td style="text-align:right"><b>Total:</b></td>
-        <td>800€</td>
-    </tr>
-</table>
+<?php
+    $prc=$prc+500;
+    $prccpu=$prccpu+150;
+    $prcgpu=$prcgpu+350;
+}
+?>
