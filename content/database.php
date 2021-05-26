@@ -1,8 +1,8 @@
 <?php
 $host = "d85345.mysql.zonevs.eu"; /* Host name */
-$user = "d85345sa355854"; /* User */
+$user = "d85345_userpc"; /* User */
 $password = "BXR9GpAN67h6h4h6dn"; /* Password */
-$dbname = "d85345sd396387"; /* Database name */
+$dbname = "d85345_pcbuilder"; /* Database name */
 
 $con = mysqli_connect($host, $user, $password, $dbname);
 $con->set_charset("utf8");
