@@ -1,8 +1,8 @@
 <?php
 
 require_once('database.php');
-global $conn;
-    $kask = $conn->prepare("SELECT CPU, AIO, MOBO, GPU, RAM, SSD, CASEE, PSU, OS  FROM builds");
+global $con;
+    $kask = $con->prepare("SELECT CPU, AIO, MOBO, GPU, RAM, SSD, CASEE, PSU, OS  FROM builds");
     $kask->bind_result( $CPU, $AIO, $MOBO, $GPU, $RAM, $SSD, $CASEE, $PSU, $OS);
     $kask->execute();
     $prc=1000;
