@@ -14,8 +14,6 @@ header{
 footer{
     padding: 5%;
     margin: 0px;
-    text-align: center;
-    padding-left: 30%;
 
 
 }
@@ -23,7 +21,14 @@ footer{
 h1{
     text-align:center;
 }
-
+/*Hr Shop*/
+.hrShop{
+    position: relative;
+    border-radius: 2px;
+    height: 2px;
+    width: 750px;
+    margin-bottom: 30px;
+}
 .hrt {
     position: relative;
     border-radius: 2px;
@@ -48,7 +53,7 @@ aside{
 }
 
 
-
+/* Navigation menu */
 nav li{
     float: left;
     font-size: 20px;
@@ -109,7 +114,7 @@ nav li a:hover{
     clear: both;
     display: table;
 }
-table {
+.tableCom, .tableBuilds {
     border-collapse: collapse;
     padding: 1px;
     color:black;
@@ -137,63 +142,114 @@ table {
     width:130px;
     text-align:center;
 }
-tr,th,td{
+.trThTd{
     background-color: #fbefdf;
     border: 1px solid black;
 }
+.copyr{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo{
     position: absolute;
-    float: right;
-    left: 25%;
-    width: 100px;
-    height: 100px;
+    margin-left: max(250px, 20%);
+
+    transform: translate(-50%);
+
+    width: 95px;
+    height: auto;
 
 }
+/* TABLE SHOP */
+.shopTable{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align:left;
+    width: 700px;
+}
+.shopTr{
 
+}
+.shopTdPrice{
+    text-align:center;
+    width: 150px;
+    vertical-align: auto;
+    font-size: 35px;
+}
+.shopTd{
+    font-size: 30px;
 
+}
+.shopDesc{
+   color:#c0c0c0;
+}
+/*Shop Name*/
+.shopTableName{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align:left;
+    width: 700px;
+}
+.shopNamePrice{
+    width: 160px;
+    text-align: center;
+}
 
 /* NEWS APPRIBUTES */
-.clear_news{
-    width: 100%;
-    clear: both;
-}
-/*
-.container_news{
-    width: 80%;
-    max-width: 1280px;
-    background: #27282d;
-    padding: 10px;
-}
-.container_news{
-    margin: 0 auto;
-}
-*/
+
 
 .img_news{
-    width: 300px;
+    width: 200%;
     height: auto;
+    max-width: 350px;
 }
 .row_news{
-    width: 100%;
+    width: 950px;
+
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .picture_news{
-    width: 30%;
+    width: 35%;
     display: block;
     float: left;
 }
 .intro_news{
-    width: 70%;
+    width: 60%;
     display: block;
     float: left;
+    margin-left: 30px;
 }
 .clear{
     width: 100%;
     clear: both;
 }
+.intro_link{
+    font-size: 25px;
+    margin-top: -2px;
+    color:#fbefdf;
+    text-decoration: none;
+}
+.newsData{
 
-
+    float: right;
+    margin-right: 100px;
+    margin-top: 15px;
+    color:#c0c0c0;
+}
+.newsContent{
+    width: 70%;
+    color:#c0c0c0;
+}
 /* OTEHR APPRIBUTES - Saate sia edasi lisada */
 
 .container{
@@ -203,15 +259,5 @@ tr,th,td{
     padding: 10px;
     margin: 0 auto;
 }
-/*.main_img
-{
-    width: 80%;
-    max-width: 1280px;
-    padding-left: 30%;
-    padding-right: 30%;
-}*/
-/*
-.container_news{
-    margin: 0 auto;
-}*/
+
 
