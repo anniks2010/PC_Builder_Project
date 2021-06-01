@@ -34,10 +34,11 @@ function get_news($num){
 $id = get_news_id();
 $i=0;
 ?>
+<h1>NEWS</h1>
 <div class="clear_news"></div>
 
 <div class="container">
-    <h1>News</h1>
+
 
     <div class="">
 <?php
@@ -56,9 +57,7 @@ while ($i<= (count($id)-1)){
             </a>      
         </div>
         <div class="intro_news">
-            <h2 class="intro_link" style=" ">
                 <a class="intro_link" href=""><?php echo $news["description"] ?></a>
-            </h2>
             <p class="newsContent"><?php echo $news["content"] ?></p>
             <p class="newsData" ><?php echo $news["creationDate"] ?></p>
         </div>

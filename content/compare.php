@@ -34,6 +34,10 @@ function get_comp($num){
     }
 
 }
+?>
+<h1>COMPARE</h1>
+<br>
+<?php
 $id=get_id();
 
 $i=0;
@@ -50,8 +54,9 @@ while($i<= (count($id)-1)){
         }
 
     ?>
-        <h1><?php echo $comp1["model"] ?> vs <?php  echo $comp2["model"] ?>
-        </h1>
+
+        <h2><?php echo $comp1["model"] ?> vs <?php  echo $comp2["model"] ?>
+        </h2>
 
         <div class="row">
             <div class="column">

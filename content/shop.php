@@ -37,8 +37,8 @@ $i=0;
 
 <table class="shopTableName">
     <tr>
-        <td class="shopName"><h2>Model</h2></td>
-        <td class="shopNamePrice"><h2>Price</h2></td>
+        <td class="shopName">Model</td>
+        <td class="shopNamePrice">Price</td>
     </tr>
 </table>
 

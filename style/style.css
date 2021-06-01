@@ -21,6 +21,9 @@ footer{
 h1{
     text-align:center;
 }
+h2{
+    text-align:center;
+}
 /*Hr Shop*/
 .hrShop{
     position: relative;
@@ -89,9 +92,10 @@ nav li a:hover{
 }
 .paragraph{
     padding-top: 10px;
-    text-align: left;
+    text-align: justify;
     padding-left: 30%;
     padding-right: 30%;
+    font-size: 25px;
 }
 .main_img {
     display: block;
@@ -171,9 +175,7 @@ nav li a:hover{
     text-align:left;
     width: 700px;
 }
-.shopTr{
 
-}
 .shopTdPrice{
     text-align:center;
     width: 150px;
@@ -189,6 +191,8 @@ nav li a:hover{
 }
 /*Shop Name*/
 .shopTableName{
+    font-weight: bold;
+    font-size: 28px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-collapse: collapse;
@@ -234,6 +238,7 @@ nav li a:hover{
     clear: both;
 }
 .intro_link{
+    font-weight: bold;
     font-size: 25px;
     margin-top: -2px;
     color:#fbefdf;
@@ -247,6 +252,7 @@ nav li a:hover{
     color:#c0c0c0;
 }
 .newsContent{
+    font-size: 18px;
     width: 70%;
     color:#c0c0c0;
 }

@@ -40,8 +40,10 @@ function get_prod($num){
     }
     return $comp;
 }
-
-
+?>
+    <h1>BUILDS</h1>
+<br>
+<?php
     $id=get_id_builds();
     $val=0;
 while ($val<= (count($id)-1)){
@@ -53,7 +55,7 @@ while ($val<= (count($id)-1)){
     $total=$prc[$comp["CPU"]]+$prc[$comp["AIO"]]+$prc[$comp["MOBO"]]
         +$prc[$comp["GPU"]]+$prc[$comp["RAM"]]+$prc[$comp["SSD"]]+$prc[$comp["CASEE"]]+$prc[$comp["PSU"]]+$prc[$comp["OS"]];
         ?>
-            <h1>Part List for  <?php echo  $total?>€ PC Build</h1>
+            <h2>Part List for  <?php echo  $total?>€ PC Build</h2>
     <table class="tableBuilds" >
         <tr class="trThTd">
             <th class="colum1">Сomponents</th>
