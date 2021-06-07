@@ -1,48 +1,72 @@
 <?php
-   /* require_once __DIR__ . "/database.php";
-    global $conn; */
 
+function get_news_id(){
+    require_once('database.php');
+    global $con;
+    $kask = $con->prepare("SELECT id  FROM news");
+    $kask->bind_result( $id);
+    $kask->execute();
+    while($kask->fetch()) {
+        $news[]=$id;
+    }
+    return $news;
+}
+
+
+function get_news($num){
+    require_once('database.php');
+    global $con;
+    $kask = $con->prepare("SELECT pic_url ,creationDate , description, content FROM news where id= $num ");
+    $kask->bind_result( $pic_url, $creationDate, $description, $content);
+    $kask->execute();
+    while($kask->fetch()) {
+        $news["pic_url"]=$pic_url;
+        $news["creationDate"]=$creationDate;
+        $news["description"]=$description;
+        $news["content"]=$content;
+    }
+    if(!empty( $news["pic_url"])){
+        return  $news;
+    }
+
+}
+
+$id = get_news_id();
+$i=0;
 ?>
-
+<h1>NEWS</h1>
 <div class="clear_news"></div>
 
 <div class="container">
-    <h1>News</h1>
 
-<div class="">
-    <div class="row_news">
-        <div class="picture_news">
-            <a href="">
-                <img class ="img_news" src="http://s4.thingpic.com/images/CM/uHYVBitbGD8jGxsGKoa74rtn.jpeg" alt="PILT REBANE">
-            </a>      
-        </div>
-        <div class="intro_news">
-            <h2 class="intro_link" style="color: #4b8d89; margin-top: -2px;">
-                <a class="intro_link" href="">TEST UUDIS</a>
-            </h2>
-            <p style="margin-top: 5px;margin-bottom: 5px;">veebruar 23, 2021</p>
-            <p>Proin id dui molestie, vehicula augue et, tincidunt dolor. Fusce suscipit pharetra nulla eu sollicitudin. Nulla mollis varius congue. Sed justo eros, blandit in fringilla eu, vestibulum sit amet felis. Donec ut massa cursus risus convallis tempor eu eu arcu. Etiam auctor leo sem, vitae tristique nisl fringilla sit amet. Phasellus eu laoreet dolor, in faucibus sapien. Nullam id dui ut nisl tincidunt rutrum id interdum dui. Sed vestibulum tempor ipsum. Sed scelerisque urna quis venenatis aliquam. Morbi congue tempor lorem eu tempus. Nam commodo luctus neque id euismod.</p>
-        </div>
-        <div class="clear_news"></div>
-    </div>
+
+    <div class="">
+<?php
+while ($i<= (count($id)-1)){
+    $news= get_news($id[$i]);
+    if(empty($news["pic_url"])){
+        return;
+    }
+    $i=$i+1;
+?>
 
     <div class="row_news">
         <div class="picture_news">
             <a href="">
-                <img class ="img_news" src="http://s4.thingpic.com/images/CM/uHYVBitbGD8jGxsGKoa74rtn.jpeg" alt="PILT REBANE">
+                <img class ="img_news" src=<?php echo $news["pic_url"] ?> alt="PILT">
             </a>      
         </div>
         <div class="intro_news">
-            <h2 class="intro_link" style="color: #4b8d89; margin-top: -2px;">
-                <a class="intro_link" href="">TEST UUDIS</a>
-            </h2>
-            <p style="margin-top: 5px;margin-bottom: 5px;">veebruar 23, 2021</p>
-            <p>Proin id dui molestie, vehicula augue et, tincidunt dolor. Fusce suscipit pharetra nulla eu sollicitudin. Nulla mollis varius congue. Sed justo eros, blandit in fringilla eu, vestibulum sit amet felis. Donec ut massa cursus risus convallis tempor eu eu arcu. Etiam auctor leo sem, vitae tristique nisl fringilla sit amet. Phasellus eu laoreet dolor, in faucibus sapien. Nullam id dui ut nisl tincidunt rutrum id interdum dui. Sed vestibulum tempor ipsum. Sed scelerisque urna quis venenatis aliquam. Morbi congue tempor lorem eu tempus. Nam commodo luctus neque id euismod.</p>
+                <a class="intro_link" href=""><?php echo $news["description"] ?></a>
+            <p class="newsContent"><?php echo $news["content"] ?></p>
+            <p class="newsData" ><?php echo $news["creationDate"] ?></p>
         </div>
         <div class="clear_news"></div>
     </div>
 
+    <?php
+    }
+    ?>
 </div>
 
 </div>
-

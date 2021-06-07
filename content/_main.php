@@ -1,3 +1,7 @@
+
+
+<h1>HOME</h1>
+<br>
 <img class="main_img" src="pictures/welcome_pic.png" alt="welcome">
 <div class="paragraph">
 <p>This website is all about modern-day technologies for both low skilled and advanced users. Here we offer the most interesting computer-related information from all around the world.</p>
